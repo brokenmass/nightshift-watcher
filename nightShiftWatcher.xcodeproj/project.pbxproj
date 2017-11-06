@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F8E13AE1FAB1FA800FAF948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E13AD1FAB1FA800FAF948 /* AppDelegate.swift */; };
+		5F8E13B21FAB1FA800FAF948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E13B11FAB1FA800FAF948 /* Assets.xcassets */; };
+		5FA2F2551FAB4C7B00D12A5D /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2F2541FAB4C7B00D12A5D /* StatusMenuController.swift */; };
+		5FA2F2661FAB5DA100D12A5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FA2F2651FAB5DA100D12A5D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F8635031FAB92AC00A3E3E8 /* nightShiftWatcher copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "nightShiftWatcher copy-Info.plist"; path = "/Users/a9882786/dev/personal/nightShiftWatcher/nightShiftWatcher copy-Info.plist"; sourceTree = "<absolute>"; };
+		5F8E13AA1FAB1FA800FAF948 /* nightShiftWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nightShiftWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8E13AD1FAB1FA800FAF948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8E13B11FAB1FA800FAF948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8E13B61FAB1FA800FAF948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8E13B71FAB1FA800FAF948 /* nightShiftWatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nightShiftWatcher.entitlements; sourceTree = "<group>"; };
+		5FA2F2541FAB4C7B00D12A5D /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		5FA2F2651FAB5DA100D12A5D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8E13A71FAB1FA800FAF948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8E13A11FAB1FA800FAF948 = {
+			isa = PBXGroup;
+			children = (
+				5F8E13AC1FAB1FA800FAF948 /* nightShiftWatcher */,
+				5F8E13AB1FAB1FA800FAF948 /* Products */,
+				5F8635031FAB92AC00A3E3E8 /* nightShiftWatcher copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8E13AB1FAB1FA800FAF948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8E13AA1FAB1FA800FAF948 /* nightShiftWatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8E13AC1FAB1FA800FAF948 /* nightShiftWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				5F8E13AD1FAB1FA800FAF948 /* AppDelegate.swift */,
+				5F8E13B11FAB1FA800FAF948 /* Assets.xcassets */,
+				5FA2F2541FAB4C7B00D12A5D /* StatusMenuController.swift */,
+				5FA2F2651FAB5DA100D12A5D /* MainMenu.xib */,
+				5F8E13B61FAB1FA800FAF948 /* Info.plist */,
+				5F8E13B71FAB1FA800FAF948 /* nightShiftWatcher.entitlements */,
+			);
+			path = nightShiftWatcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8E13A91FAB1FA800FAF948 /* nightShiftWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8E13D01FAB1FA900FAF948 /* Build configuration list for PBXNativeTarget "nightShiftWatcher" */;
+			buildPhases = (
+				5F8E13A61FAB1FA800FAF948 /* Sources */,
+				5F8E13A71FAB1FA800FAF948 /* Frameworks */,
+				5F8E13A81FAB1FA800FAF948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nightShiftWatcher;
+			productName = nightShiftWatcher;
+			productReference = 5F8E13AA1FAB1FA800FAF948 /* nightShiftWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8E13A21FAB1FA800FAF948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = brokenmass;
+				TargetAttributes = {
+					5F8E13A91FAB1FA800FAF948 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5F8E13A51FAB1FA800FAF948 /* Build configuration list for PBXProject "nightShiftWatcher" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8E13A11FAB1FA800FAF948;
+			productRefGroup = 5F8E13AB1FAB1FA800FAF948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8E13A91FAB1FA800FAF948 /* nightShiftWatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8E13A81FAB1FA800FAF948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA2F2661FAB5DA100D12A5D /* MainMenu.xib in Resources */,
+				5F8E13B21FAB1FA800FAF948 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8E13A61FAB1FA800FAF948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA2F2551FAB4C7B00D12A5D /* StatusMenuController.swift in Sources */,
+				5F8E13AE1FAB1FA800FAF948 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F8E13CE1FAB1FA900FAF948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F8E13CF1FAB1FA900FAF948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5F8E13D11FAB1FA900FAF948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = nightShiftWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brokenmass.nightShiftWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5F8E13D21FAB1FA900FAF948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = nightShiftWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brokenmass.nightShiftWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8E13A51FAB1FA800FAF948 /* Build configuration list for PBXProject "nightShiftWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8E13CE1FAB1FA900FAF948 /* Debug */,
+				5F8E13CF1FAB1FA900FAF948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8E13D01FAB1FA900FAF948 /* Build configuration list for PBXNativeTarget "nightShiftWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8E13D11FAB1FA900FAF948 /* Debug */,
+				5F8E13D21FAB1FA900FAF948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8E13A21FAB1FA800FAF948 /* Project object */;
+}
